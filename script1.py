@@ -102,7 +102,6 @@ def execute_process(isolation_level_name, isolation_level):
     plt.legend()
     plt.title(isolation_level_name)
     plt.savefig(f"{isolation_level_name}.png")
-    plt.clf()
 
 
 if __name__ == "__main__":
